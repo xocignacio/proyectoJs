@@ -1,10 +1,10 @@
 /* PRIMER DESAFIO */
 
-// let nombre = prompt ('cual es tu nombre?')
+let nombre = prompt ('cual es tu nombre?')
 
-// if (nombre) {
-//     alert('hola' + nombre + 'Bienvenido a mi pagina web')
-// }
+if (nombre) {
+     alert('hola' + nombre + 'Bienvenido a mi pagina web')
+}
 
 
 
