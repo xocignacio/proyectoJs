@@ -1,0 +1,81 @@
+@import "mixin";
+* {
+    @include recet;
+}
+$borderBox : 0 3px 10px 0px rgb(77, 71, 71);
+
+.header {
+    background-color: black;
+    font-family: 'Rubik', sans-serif;
+    border: $borderBox;
+
+     li a {
+         border: 1px inset rgb(2, 2, 54);
+         margin: 15px;
+         padding: 10px;
+         align-items: center;
+     }
+    
+     ul:hover a {
+        filter: blur(2px);
+    }
+
+    ul li a:hover {
+        transform: translateY(-3px) scale(1.05);
+        box-shadow: 0 5px 5px 0px black;
+        filter: none;
+    }
+   
+
+}
+
+
+h1 {
+        font-size: 25px;
+        color: grey;
+        font-family: 'Press Start 2P', cursive;
+       
+    }
+h2 {
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h3 {
+    font-family: 'Graduate', cursive;
+    font-size: 20px;
+    
+}
+
+p {
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.main {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;  
+    color: whitesmoke;
+    height: 700px;                   
+    background-image:url(../multimedia/background-g0003a7a51_1920.jpg);
+   padding: 15px;
+  
+}
+
+.animate__animated.animate__bounce  {
+    --animate-duration: 5s;
+}
+
+footer {
+    display:flex;
+font-size: 18px;
+background-color: black;
+align-items: flex-end;
+text-align: center;
+
+color: grey;
+padding: 10px;
+height: 60px;
+}

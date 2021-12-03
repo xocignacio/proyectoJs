@@ -1,19 +1,88 @@
 * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: black;
+  font-family: 'Rubik', sans-serif;
+  border: 0 3px 10px 0px #4d4747;
+}
+
+.header li a {
+  border: 1px inset #020236;
+  margin: 15px;
+  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header ul:hover a {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+}
+
+.header ul li a:hover {
+  -webkit-transform: translateY(-3px) scale(1.05);
+          transform: translateY(-3px) scale(1.05);
+  -webkit-box-shadow: 0 5px 5px 0px black;
+          box-shadow: 0 5px 5px 0px black;
+  -webkit-filter: none;
+          filter: none;
+}
+
+h1 {
+  font-size: 25px;
+  color: grey;
   font-family: 'Press Start 2P', cursive;
 }
 
-.EL {
+h2 {
+  font-size: 15px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h3 {
+  font-family: 'Graduate', cursive;
+  font-size: 20px;
+}
+
+p {
+  font-size: 10px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
   color: whitesmoke;
-  height: 500px;
-  background-image: url(../multimedia/space-g3e06f40cf_1920.jpg);
+  height: 700px;
+  background-image: url(../multimedia/background-g0003a7a51_1920.jpg);
+  padding: 15px;
 }
 
-h1 {
-  font-size: 50px;
-  color: black;
+.animate__animated.animate__bounce {
+  --animate-duration: 5s;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  background-color: black;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: center;
+  color: grey;
+  padding: 10px;
+  height: 60px;
 }
 /*# sourceMappingURL=style.css.map */
