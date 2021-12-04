@@ -7,9 +7,10 @@
 }
 
 .header {
-  background-color: black;
+  background-color: #1d2951;
   font-family: 'Rubik', sans-serif;
   border: 0 3px 10px 0px #4d4747;
+  color: whitesmoke;
 }
 
 .header li a {

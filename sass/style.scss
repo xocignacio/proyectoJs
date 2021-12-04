@@ -5,9 +5,10 @@
 $borderBox : 0 3px 10px 0px rgb(77, 71, 71);
 
 .header {
-    background-color: black;
+    background-color: rgb(29, 41, 81);
     font-family: 'Rubik', sans-serif;
     border: $borderBox;
+    color: whitesmoke;
 
      li a {
          border: 1px inset rgb(2, 2, 54);
