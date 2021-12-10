@@ -30,6 +30,32 @@ $borderBox : 0 3px 10px 0px rgb(77, 71, 71);
 
 }
 
+.headerHabilidades {
+    background-color: rgb(10, 10, 10);
+    font-family: 'Rubik', sans-serif;
+    border: $borderBox;
+    color: whitesmoke;
+
+     li a {
+         border: 1px inset rgb(2, 2, 54);
+         margin: 15px;
+         padding: 10px;
+         align-items: center;
+     }
+    
+     ul:hover a {
+        filter: blur(2px);
+    }
+
+    ul li a:hover {
+        transform: translateY(-3px) scale(1.05);
+        box-shadow: 0 5px 5px 0px black;
+        filter: none;
+    }
+   
+
+}
+
 
 h1 {
         font-size: 25px;
@@ -64,6 +90,20 @@ p {
    padding: 15px;
   
 }
+
+
+.mainCafe {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;  
+    color: whitesmoke;
+    height: 700px;                   
+    background-image:url(../multimedia/coffee-beans-gda98aada4_1920.jpg);
+   padding: 15px;
+  
+}
+
 
 .animate__animated.animate__bounce  {
     --animate-duration: 5s;
