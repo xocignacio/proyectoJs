@@ -49,16 +49,7 @@ switch (entrada) {
     alert('Igualmente, bienvenido...')
 }
 
-console.dir(document.body);
-let body = document.getElementsByClassName("body");
-console.log(body[0].innerHTML);
 
-
-let parrafo = document.createElement("p");
-
-parrafo.innerHTML = "<h2>¡Hola, estoy practicando agregar html dinamico!</h2>"; 
-
-document.main.appendChild(parrafo);
 
 
 
