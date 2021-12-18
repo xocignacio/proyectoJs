@@ -63,8 +63,3 @@ document.main.appendChild(parrafo);
 
 
 
-
-
-
-
-

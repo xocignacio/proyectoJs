@@ -69,15 +69,15 @@ function Usuario(nombre, edad, cafe,) {
 
 
 
-var entrada = prompt("Bienvenido, ingrese su nombre ") 
+  var entrada = prompt("Bienvenido, ingrese su nombre ") 
 
-document.getElementById("bienvenida").innerHTML = 'Bienvenido a mi pagina web ' + entrada;
-
- 
-
-
-
-
-
-
+  document.getElementById("bienvenida").innerHTML = 'Bienvenido a mi pagina web ' + entrada;
   
+   
+  
+  
+  
+  
+  
+  
+    
