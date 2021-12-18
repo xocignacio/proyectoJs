@@ -1,1 +1,1 @@
-# ProyectoJS es mi proyecto donde estoy aprendiendo a el lenguaje de programacion Javascript
+# ProyectoJS es mi proyecto de estudio, donde estoy aprendiendo  el lenguaje de programacion Javascript.
