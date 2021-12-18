@@ -44,7 +44,7 @@
 }
 
 .headerHabilidades li a {
-  border: 1px inset #020236;
+  border: 1px inset grey;
   margin: 15px;
   padding: 10px;
   -webkit-box-align: center;
@@ -60,8 +60,8 @@
 .headerHabilidades ul li a:hover {
   -webkit-transform: translateY(-3px) scale(1.05);
           transform: translateY(-3px) scale(1.05);
-  -webkit-box-shadow: 0 5px 5px 0px black;
-          box-shadow: 0 5px 5px 0px black;
+  -webkit-box-shadow: 0 5px 5px 0px grey;
+          box-shadow: 0 5px 5px 0px grey;
   -webkit-filter: none;
           filter: none;
 }
@@ -83,8 +83,8 @@ h3 {
 }
 
 p {
-  font-size: 10px;
-  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+  font-family: 'Graduate', cursive;
 }
 
 .main {
@@ -95,17 +95,6 @@ p {
   color: whitesmoke;
   height: 700px;
   background-image: url(../multimedia/background-g0003a7a51_1920.jpg);
-  padding: 15px;
-}
-
-.mainCafe {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  text-align: center;
-  color: whitesmoke;
-  height: 700px;
-  background-image: url(../multimedia/coffee-beans-gda98aada4_1920.jpg);
   padding: 15px;
 }
 
@@ -126,5 +115,31 @@ footer {
   color: grey;
   padding: 10px;
   height: 60px;
+}
+
+#bienvenida {
+  font-size: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: whitesmoke;
+  height: 700px;
+  background-image: url(../multimedia/coffee1.jpg);
+  padding: 15px;
+  color: grey;
+  border-bottom: 10px solid white;
+  font-family: 'Graduate', cursive;
+}
+
+.mainCafe {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: whitesmoke;
+  height: 700px;
+  background-image: url(../multimedia/coffee2.jpg);
+  padding: 15px;
 }
 /*# sourceMappingURL=style.css.map */

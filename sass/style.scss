@@ -37,7 +37,7 @@ $borderBox : 0 3px 10px 0px rgb(77, 71, 71);
     color: whitesmoke;
 
      li a {
-         border: 1px inset rgb(2, 2, 54);
+         border: 1px inset grey;
          margin: 15px;
          padding: 10px;
          align-items: center;
@@ -49,7 +49,7 @@ $borderBox : 0 3px 10px 0px rgb(77, 71, 71);
 
     ul li a:hover {
         transform: translateY(-3px) scale(1.05);
-        box-shadow: 0 5px 5px 0px black;
+        box-shadow: 0 5px 5px 0px grey;
         filter: none;
     }
    
@@ -75,8 +75,8 @@ h3 {
 }
 
 p {
-    font-size: 10px;
-    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    font-family: 'Graduate', cursive;
 }
 
 .main {
@@ -92,17 +92,6 @@ p {
 }
 
 
-.mainCafe {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;  
-    color: whitesmoke;
-    height: 700px;                   
-    background-image:url(../multimedia/coffee-beans-gda98aada4_1920.jpg);
-   padding: 15px;
-  
-}
 
 
 .animate__animated.animate__bounce  {
@@ -120,3 +109,32 @@ color: grey;
 padding: 10px;
 height: 60px;
 }
+
+#bienvenida {
+    font-size: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;  
+    color: whitesmoke;
+    height: 700px;                   
+    background-image:url(../multimedia/coffee1.jpg);
+   padding: 15px;
+   color: grey;
+   border-bottom: 10px solid white;
+   font-family: 'Graduate', cursive;
+   
+}
+
+.mainCafe {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;  
+    color: whitesmoke;
+    height: 700px;                   
+    background-image:url(../multimedia/coffee2.jpg);
+   padding: 15px;
+  
+}
+

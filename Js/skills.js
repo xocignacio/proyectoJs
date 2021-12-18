@@ -1,4 +1,4 @@
-alert("Bienvenido al spot donde practico diferentes habilidades de js")
+/* alert("Bienvenido al spot donde practico diferentes habilidades de js")
 
 function Usuario(nombre, edad, cafe,) {
     this.name = nombre;
@@ -31,7 +31,7 @@ function Usuario(nombre, edad, cafe,) {
     };
   }
   
-  let cafeList = [
+  let cafe = [
     {
       cafe: "cafe espresso",      
     },
@@ -65,6 +65,17 @@ function Usuario(nombre, edad, cafe,) {
   console.log(newUser2.getFull());
   
   console.log(newUser.getCafe());
+ */
+
+
+
+var entrada = prompt("Bienvenido, ingrese su nombre ") 
+
+document.getElementById("bienvenida").innerHTML = 'Bienvenido a mi pagina web ' + entrada;
+
+ 
+
+
 
 
 
