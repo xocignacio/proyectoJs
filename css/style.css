@@ -6,20 +6,29 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
-  background-color: #1d2951;
+  background-color: black;
   font-family: 'Rubik', sans-serif;
   border: 0 3px 10px 0px #4d4747;
   color: whitesmoke;
+  height: 80px;
+  background-image: url(../multimedia/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header li a {
-  border: 1px inset #020236;
+  border: 1px inset #312b2b;
   margin: 15px;
   padding: 10px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 10px;
 }
 
 .header ul:hover a {
@@ -83,7 +92,7 @@ h3 {
 }
 
 p {
-  font-size: 40px;
+  font-size: 20px;
   font-family: 'Graduate', cursive;
 }
 
@@ -115,6 +124,9 @@ footer {
   color: grey;
   padding: 10px;
   height: 60px;
+  background-image: url(../multimedia/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #bienvenida {
@@ -128,7 +140,6 @@ footer {
   background-image: url(../multimedia/coffee1.jpg);
   padding: 15px;
   color: grey;
-  border-bottom: 10px solid white;
   font-family: 'Graduate', cursive;
 }
 
@@ -141,5 +152,137 @@ footer {
   height: 700px;
   background-image: url(../multimedia/coffee2.jpg);
   padding: 15px;
+}
+
+.mainCafe3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: whitesmoke;
+  height: 700px;
+  background-image: url(../multimedia/coffee3.jpg);
+  padding: 15px;
+}
+
+.fondoConoceme {
+  background-image: url(../multimedia/fondoHistoria.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 50px;
+  padding: 50px;
+  text-align: center;
+  -webkit-box-shadow: 0 3px 10px 0px #4d4747;
+          box-shadow: 0 3px 10px 0px #4d4747;
+  background-color: black;
+}
+
+#btn1 {
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
+  padding: 1.2rem 2.8rem;
+  font-weight: bold;
+  color: #fff;
+  border-color: grey;
+  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+}
+
+#btn1:focus {
+  outline: 0;
+}
+
+#btn1:hover {
+  -webkit-box-shadow: 0 0 40px  black inset;
+          box-shadow: 0 0 40px  black inset;
+  background-position: 0;
+}
+
+#btn2 {
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
+  padding: 1.2rem 2.8rem;
+  font-weight: bold;
+  color: #fff;
+  border-color: grey;
+  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+}
+
+#btn2:focus {
+  outline: 0;
+}
+
+#btn2:hover {
+  -webkit-box-shadow: 0 0 40px  black inset;
+          box-shadow: 0 0 40px  black inset;
+  background-position: 0;
+}
+
+#btn3 {
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
+  padding: 1.2rem 2.8rem;
+  font-weight: bold;
+  color: #fff;
+  border-color: grey;
+  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+}
+
+#btn3:focus {
+  outline: 0;
+}
+
+#btn3:hover {
+  -webkit-box-shadow: 0 0 40px  black inset;
+          box-shadow: 0 0 40px  black inset;
+  background-position: 0;
+}
+
+#btn4 {
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
+  padding: 1.2rem 2.8rem;
+  font-weight: bold;
+  color: #fff;
+  border-color: grey;
+  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+}
+
+#btn4:focus {
+  outline: 0;
+}
+
+#btn4:hover {
+  -webkit-box-shadow: 0 0 40px  black inset;
+          box-shadow: 0 0 40px  black inset;
+  background-position: 0;
+}
+
+.historia {
+  color: blanchedalmond;
 }
 /*# sourceMappingURL=style.css.map */

@@ -4,17 +4,29 @@
 }
 $borderBox : 0 3px 10px 0px rgb(77, 71, 71);
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 .header {
-    background-color: rgb(29, 41, 81);
+    background-color: black;
     font-family: 'Rubik', sans-serif;
     border: $borderBox;
     color: whitesmoke;
+    height: 80px;
+    background-image: url(../multimedia/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
 
      li a {
-         border: 1px inset rgb(2, 2, 54);
+         border: 1px inset rgb(49, 43, 43);
          margin: 15px;
          padding: 10px;
          align-items: center;
+         border-radius: 10px;
      }
     
      ul:hover a {
@@ -54,7 +66,6 @@ $borderBox : 0 3px 10px 0px rgb(77, 71, 71);
    
 }
 
-
 h1 {
         font-size: 25px;
         color: grey;
@@ -72,7 +83,7 @@ h3 {
 }
 
 p {
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'Graduate', cursive;
 }
 
@@ -101,6 +112,9 @@ text-align: center;
 color: grey;
 padding: 10px;
 height: 60px;
+background-image: url(../multimedia/header.jpg);
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 #bienvenida {
@@ -114,7 +128,6 @@ height: 60px;
     background-image:url(../multimedia/coffee1.jpg);
     padding: 15px;
     color: grey;
-    border-bottom: 10px solid white;
     font-family: 'Graduate', cursive;
    
 }
@@ -127,7 +140,91 @@ height: 60px;
     color: whitesmoke;
     height: 700px;                   
     background-image:url(../multimedia/coffee2.jpg);
+    padding: 15px;
+  
+}
+
+.mainCafe3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;  
+    color: whitesmoke;
+    height: 700px;                   
+    background-image:url(../multimedia/coffee3.jpg);
    padding: 15px;
   
 }
 
+
+.fondoConoceme  {
+    background-image: url(../multimedia/fondoHistoria.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 50px;
+    padding: 50px;
+    text-align: center;  
+    box-shadow: $borderBox;
+    background-color: black;
+}
+
+#btn1 {
+   @include boton;
+    
+}
+
+#btn1:focus {
+    outline: 0;
+}
+
+#btn1:hover {
+    box-shadow: 0 0 40px  black inset;
+    background-position: 0;
+}
+
+#btn2 {
+    @include boton;
+     
+ }
+ 
+ #btn2:focus {
+     outline: 0;
+ }
+ 
+ #btn2:hover {
+     box-shadow: 0 0 40px  black inset;
+     background-position: 0;
+ }
+ 
+ #btn3 {
+    @include boton;
+     
+ }
+ 
+ #btn3:focus {
+     outline: 0;
+ }
+ 
+ #btn3:hover {
+     box-shadow: 0 0 40px  black inset;
+     background-position: 0;
+ }
+ #btn4 {
+    @include boton;
+     
+ }
+ 
+ #btn4:focus {
+     outline: 0;
+ }
+ 
+ #btn4:hover {
+     box-shadow: 0 0 40px  black inset;
+     background-position: 0;
+ }
+ 
+ .historia {
+    color: blanchedalmond;
+   
+ }

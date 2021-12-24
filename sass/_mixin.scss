@@ -7,3 +7,16 @@
     
 }
 
+@mixin boton {
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+    padding: 1.2rem 2.8rem;
+    font-weight: bold;
+    color: #fff;
+    border-color: grey;
+    transition: box-shadow 0.2s ease-in-out;
+       
+}
