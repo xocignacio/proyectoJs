@@ -3,6 +3,7 @@
     @include recet;
 }
 $borderBox : 0 3px 10px 0px rgb(77, 71, 71);
+$flex : flex;
 
 html {
     scroll-behavior: smooth;
@@ -111,7 +112,7 @@ align-items: flex-end;
 text-align: center;
 color: grey;
 padding: 10px;
-height: 60px;
+height: 120px;
 background-image: url(../multimedia/header.jpg);
 background-size: cover;
 background-repeat: no-repeat;
@@ -163,11 +164,26 @@ background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-position: center;
     margin: 50px;
-    padding: 50px;
+    padding: 160px;
     text-align: center;  
     box-shadow: $borderBox;
     background-color: black;
+    height: auto;
 }
+
+.fondoContacto {
+    background-image: url(../multimedia/CONTACTO.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 50px;
+    padding: 160px;
+    text-align: center;  
+    box-shadow: $borderBox;
+    background-color: black;
+    height: auto;
+}
+
 
 #btn1 {
    @include boton;
@@ -179,7 +195,7 @@ background-repeat: no-repeat;
 }
 
 #btn1:hover {
-    box-shadow: 0 0 40px  black inset;
+    box-shadow: 0 0 40px  grey inset;
     background-position: 0;
 }
 
@@ -207,7 +223,7 @@ background-repeat: no-repeat;
  }
  
  #btn3:hover {
-     box-shadow: 0 0 40px  black inset;
+     box-shadow: 0 0 40px  grey inset;
      background-position: 0;
  }
  #btn4 {
@@ -224,7 +240,106 @@ background-repeat: no-repeat;
      background-position: 0;
  }
  
+ #btn5 {
+     @include boton;
+    
+ }
+
+ #btn5:focus {
+    outline: 0;
+}
+
+#btn5:hover {
+    box-shadow: 0 0 40px  grey inset;
+    background-position: 0;
+}
+
+
+ #btn6 {
+    @include boton;
+}
+
+#btn6:focus {
+    outline: 0;
+}
+
+#btn6:hover {
+    box-shadow: 0 0 40px  black inset;
+    background-position: 0;
+}
+
  .historia {
     color: blanchedalmond;
    
  }
+
+ .redes-container {
+    @include redes-container ($flex);
+}
+
+.copi {
+
+   display: block;
+    align-items: center;
+    text-align: center;
+    color: grey;
+}
+
+.HistoriaFondo {
+   background-color: black;
+}
+
+#textoContacto {
+    color: white;
+    font-size: 40px;
+    font-family: 'Graduate', cursive;
+}
+
+#msg {
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+    outline: none;
+    resize: none;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border-color: black;
+
+}
+
+#input-name{
+   
+    outline: none;
+    resize: none;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border-color: grey;
+
+}
+
+#input-email{
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border-color: grey;
+
+}
+#input-submit {
+    @include boton;
+}
+
+
+#input-submit:focus {
+    outline: 0;
+}
+
+#input-submit:hover {
+    box-shadow: 0 0 40px  black inset;
+    background-position: 0;
+}
+
+.bodyContacto {
+    background-color: rgb(27, 26, 26);
+}

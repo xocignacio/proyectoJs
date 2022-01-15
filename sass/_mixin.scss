@@ -20,3 +20,43 @@
     transition: box-shadow 0.2s ease-in-out;
        
 }
+
+@mixin redes-container ($flex) {
+    display: $flex;
+    align-items: center;
+    justify-content: center;
+ 
+    ul li {
+        margin: 0 5px;
+        width: 70px;
+        height: 50px;
+        text-align: center;
+   }
+ 
+    a {
+    
+     display: block;
+     margin: 8px;
+     padding: 0 10px;
+     color:black;
+     line-height: 50px;
+     font-size: 30px;
+     box-shadow: 0 3px 10px 0px grey;
+     transition: .2s;
+     }
+   
+     ul:hover a {
+        filter: blur(2px);
+    }
+
+    ul li a:hover {
+        transform: translateY(-3px) scale(1.05);
+        box-shadow: 0 5px 5px 0px black;
+        filter: none;
+    }
+   
+     ul li .linkedin:hover {
+        background: grey;
+    }
+    
+}

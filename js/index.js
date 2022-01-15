@@ -18,27 +18,27 @@ let entrada = prompt ('Select language > español o english ')
 switch (entrada) {
   case "español":
     var name = prompt("Como te llamas?")
-    document.getElementById("bienvenida").innerHTML = 'Bienvenido a mi pagina web ' + name;
+    document.getElementById("bienvenida").innerHTML = 'Bienvenido a nuestra pagina web ' + name;
     break;
   case "english":
     var name = prompt("What's your name?")
-    document.getElementById("bienvenida").innerHTML = 'Welcome to my Web site ' + name;
+    document.getElementById("bienvenida").innerHTML = 'Welcome to our Web site ' + name;
     break;
   case "ENGLISH":
     var name = prompt("What's your name?")
-    document.getElementById("bienvenida").innerHTML = 'Welcome to my Web site ' + name;
+    document.getElementById("bienvenida").innerHTML = 'Welcome to our Web site ' + name;
     break;
   case 'spanish':
     var name = prompt("Como te llamas?")
-    document.getElementById("bienvenida").innerHTML = 'Bienvenido a mi pagina web ' + name;
+    document.getElementById("bienvenida").innerHTML = 'Bienvenido a nuestra pagina web ' + name;
     break;
   case "ingles":
     var name = prompt("What's your name?")
-    document.getElementById("bienvenida").innerHTML = 'Welcome to my Web site ' + name;
+    document.getElementById("bienvenida").innerHTML = 'Welcome to our Web site ' + name;
     break;
   case "ESPAÑOL":
     var name = prompt("Como te llamas?")
-    document.getElementById("bienvenida").innerHTML = 'Bienvenido a mi pagina web ' + name;
+    document.getElementById("bienvenida").innerHTML = 'Bienvenido a nuestra pagina web ' + name;
     break;
   
   default:
@@ -96,7 +96,7 @@ btn3.onclick = () => {
 const btn4 = document.getElementById('btn4')
 
 btn4.onclick = () => {
-    const divEsp2 = document.getElementById('divING2')
+    const  divING2 = document.getElementById('divING2')
 
     divING2.innerHTML = `<span>
                                   <p>
@@ -106,7 +106,6 @@ btn4.onclick = () => {
 
   btn4.appendChild( divING2)
 }
-
 
 
 

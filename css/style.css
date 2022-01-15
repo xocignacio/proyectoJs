@@ -123,7 +123,7 @@ footer {
   text-align: center;
   color: grey;
   padding: 10px;
-  height: 60px;
+  height: 120px;
   background-image: url(../multimedia/header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -171,11 +171,26 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   margin: 50px;
-  padding: 50px;
+  padding: 160px;
   text-align: center;
   -webkit-box-shadow: 0 3px 10px 0px #4d4747;
           box-shadow: 0 3px 10px 0px #4d4747;
   background-color: black;
+  height: auto;
+}
+
+.fondoContacto {
+  background-image: url(../multimedia/CONTACTO.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 50px;
+  padding: 160px;
+  text-align: center;
+  -webkit-box-shadow: 0 3px 10px 0px #4d4747;
+          box-shadow: 0 3px 10px 0px #4d4747;
+  background-color: black;
+  height: auto;
 }
 
 #btn1 {
@@ -199,8 +214,8 @@ footer {
 }
 
 #btn1:hover {
-  -webkit-box-shadow: 0 0 40px  black inset;
-          box-shadow: 0 0 40px  black inset;
+  -webkit-box-shadow: 0 0 40px  grey inset;
+          box-shadow: 0 0 40px  grey inset;
   background-position: 0;
 }
 
@@ -251,8 +266,8 @@ footer {
 }
 
 #btn3:hover {
-  -webkit-box-shadow: 0 0 40px  black inset;
-          box-shadow: 0 0 40px  black inset;
+  -webkit-box-shadow: 0 0 40px  grey inset;
+          box-shadow: 0 0 40px  grey inset;
   background-position: 0;
 }
 
@@ -282,7 +297,186 @@ footer {
   background-position: 0;
 }
 
+#btn5 {
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
+  padding: 1.2rem 2.8rem;
+  font-weight: bold;
+  color: #fff;
+  border-color: grey;
+  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+}
+
+#btn5:focus {
+  outline: 0;
+}
+
+#btn5:hover {
+  -webkit-box-shadow: 0 0 40px  grey inset;
+          box-shadow: 0 0 40px  grey inset;
+  background-position: 0;
+}
+
+#btn6 {
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
+  padding: 1.2rem 2.8rem;
+  font-weight: bold;
+  color: #fff;
+  border-color: grey;
+  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+}
+
+#btn6:focus {
+  outline: 0;
+}
+
+#btn6:hover {
+  -webkit-box-shadow: 0 0 40px  black inset;
+          box-shadow: 0 0 40px  black inset;
+  background-position: 0;
+}
+
 .historia {
   color: blanchedalmond;
+}
+
+.redes-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.redes-container ul li {
+  margin: 0 5px;
+  width: 70px;
+  height: 50px;
+  text-align: center;
+}
+
+.redes-container a {
+  display: block;
+  margin: 8px;
+  padding: 0 10px;
+  color: black;
+  line-height: 50px;
+  font-size: 30px;
+  -webkit-box-shadow: 0 3px 10px 0px grey;
+          box-shadow: 0 3px 10px 0px grey;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.redes-container ul:hover a {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+}
+
+.redes-container ul li a:hover {
+  -webkit-transform: translateY(-3px) scale(1.05);
+          transform: translateY(-3px) scale(1.05);
+  -webkit-box-shadow: 0 5px 5px 0px black;
+          box-shadow: 0 5px 5px 0px black;
+  -webkit-filter: none;
+          filter: none;
+}
+
+.redes-container ul li .linkedin:hover {
+  background: grey;
+}
+
+.copi {
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: grey;
+}
+
+.HistoriaFondo {
+  background-color: black;
+}
+
+#textoContacto {
+  color: white;
+  font-size: 40px;
+  font-family: 'Graduate', cursive;
+}
+
+#msg {
+  width: 100%;
+  height: 60px;
+  padding: 15px;
+  outline: none;
+  resize: none;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 15px;
+  border-color: black;
+}
+
+#input-name {
+  outline: none;
+  resize: none;
+  width: 250px;
+  margin-top: 20px;
+  border-radius: 15px;
+  border-color: grey;
+}
+
+#input-email {
+  width: 250px;
+  margin-top: 20px;
+  border-radius: 15px;
+  border-color: grey;
+}
+
+#input-submit {
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
+  padding: 1.2rem 2.8rem;
+  font-weight: bold;
+  color: #fff;
+  border-color: grey;
+  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+}
+
+#input-submit:focus {
+  outline: 0;
+}
+
+#input-submit:hover {
+  -webkit-box-shadow: 0 0 40px  black inset;
+          box-shadow: 0 0 40px  black inset;
+  background-position: 0;
+}
+
+.bodyContacto {
+  background-color: #1b1a1a;
 }
 /*# sourceMappingURL=style.css.map */
