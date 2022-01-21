@@ -26,7 +26,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Graduate&family=Press+Start+2P&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" href="../db/data.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Graduate&family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -65,16 +65,17 @@
    </header>
   
    
-   <main class="mainCafe">
+   <main class="listaCafe">
 
     <div class="container-fluid">
       <div class="row">
-    <div class="col-md-8 col-sm-12">
- 
-    <p id="parrafo" class="animate__animated animate__bounce">El café se ha convertido en una de las bebidas más populares y consumidas en todo el mundo. Hoy en día los países nórdicos son los mayores consumidores de café, seguidos de Estados Unidos, Italia y España. Por su parte, Brasil, Vietnam y Colombia son los principales productores mundiales de café </p>
-  </div>
-</div>
-  </div> 
+       <div class="col-md-8 col-sm-12">
+   
+         <div id="renderCafe"></div>
+   
+      </div>
+   </div>
+    </div> 
   </main>
   
   <footer class="footer">
@@ -102,6 +103,8 @@
   </footer>
         
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<script src="../js/skills.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script type="module" src="../js/listaCafe.js"></script>
+
 </body>
 </html>
