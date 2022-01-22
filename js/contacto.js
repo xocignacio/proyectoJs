@@ -1,15 +1,15 @@
 $('main').prepend(`
                    
-                    <form id="form">
+                  <form id="form">
                     <h2 id="textoContacto"> Para contactarnos comple los siguientes datos </h2>
                     <p>nombre</p><input id="input-name" type="text"> 
                     <p>apellido</p><input id="input-name" type="text"> 
                     <p>email</P><input id="input-email" type="email">
                     <p>Mensaje</p><textarea id="msg" type="text"></textarea>
-                    <br> </br>
-                      <input id="input-submit" type="submit">
-                      <input id="input-submit" type="reset" value="Borrar">
-                    </form>
+                    <br></br>
+                    <input id="input-submit" type="submit">
+                    <input id="input-submit" type="reset" value="Borrar">
+                  </form>
                 `)
 
 

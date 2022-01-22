@@ -4,6 +4,8 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -166,12 +168,12 @@ footer {
   padding: 15px;
 }
 
-.fondoConoceme {
+.fondoHistoria {
   background-image: url(../multimedia/fondoHistoria.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 50px;
+  margin: 60px;
   padding: 160px;
   text-align: center;
   -webkit-box-shadow: 0 3px 10px 0px #4d4747;
@@ -180,29 +182,23 @@ footer {
   height: auto;
 }
 
-.fondoContacto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  /*  background-image: url(../multimedia/contacto5.png); */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 50px;
-  text-align: center;
-  -webkit-box-shadow: 0 3px 10px 0px #4d4747;
-          box-shadow: 0 3px 10px 0px #4d4747;
-  width: auto;
-  height: auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  justify-items: center;
-  -webkit-box-shadow: 0 5px 5px 0px #4e54c8;
-          box-shadow: 0 5px 5px 0px #4e54c8;
-  background-color: white;
+/* .fondoContacto {
+    display: flex;
+     background-image: url(../multimedia/contacto5.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 50px;    
+    text-align: center;  
+    box-shadow: $borderBox;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 0 5px 5px 0px #4e54c8;
+    background-color: white;
 }
-
+  */
 #btn1 {
   background-color: transparent;
   border: 2px solid;
@@ -426,54 +422,58 @@ footer {
   background-color: black;
 }
 
-#textoContacto {
-  color: #4e54c8;
-  font-size: 30px;
-  font-family: 'Graduate', cursive;
-}
-
+/* #textoContacto {
+    color: #4e54c8;
+    font-size: 30px;
+    font-family: 'Graduate', cursive;
+} */
+/* 
 #form {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 #msg {
-  width: 500px;
-  padding: 15px;
-  outline: none;
-  resize: none;
-  font-size: 16px;
-  border: none;
-  background-color: white;
-  border-bottom: 1px solid grey;
-  /*  border-radius: 15px; */
-  border-color: black;
-  color: #4e54c8;
+    width: 500px;
+     
+    padding: 15px;
+    outline: none;
+    resize: none;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid grey;
+   border-radius: 15px; 
+    border-color: black;
+    color: #4e54c8;
+
 }
 
-#input-name {
-  outline: none;
-  resize: none;
-  width: 320px;
-  margin-top: 20px;
-  /* border-radius: 15px;
-    border-color: grey; */
-  border: none;
-  background-color: white;
-  border-bottom: 1px solid grey;
-  color: #4e54c8;
+#input-name{
+    
+    outline: none;
+    resize: none;
+    width: 320px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border-color: grey; 
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid grey;
+    color: #4e54c8;
+    
 }
 
-#input-email {
-  width: 320px;
-  border: none;
-  background-color: white;
-  border-bottom: 1px solid grey;
-  /* border-radius: 15px; */
-  border-color: grey;
-  color: #4e54c8;
-}
+#input-email{
+    width: 320px;
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid grey;
+     border-radius: 15px; 
+    border-color: grey;
+    color: #4e54c8;
 
+} */
 #input-submit {
   background-color: transparent;
   border: 2px solid;
@@ -488,7 +488,7 @@ footer {
   transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
-  color: black;
+  color: #4e54c8;
 }
 
 #input-submit:focus {
@@ -496,18 +496,14 @@ footer {
 }
 
 #input-submit:hover {
-  -webkit-box-shadow: 0 0 40px  black inset;
-          box-shadow: 0 0 40px  black inset;
+  -webkit-box-shadow: 0 0 40px  #4e54c8;
+          box-shadow: 0 0 40px  #4e54c8;
   background-position: 0;
 }
 
 .bodyContacto {
   background: -webkit-gradient(linear, right top, left top, from(#000000), to(#434343));
   background: linear-gradient(to left, #000000, #434343);
-}
-
-dsd {
-  background-color: black;
 }
 
 .footerForm {
@@ -532,13 +528,142 @@ dsd {
 
 .listaCafe {
   background-size: cover;
-  background-repeat: no-repeat;
+  background: -webkit-gradient(linear, right top, left top, from(#C33764), to(#1d2671));
+  background: linear-gradient(to left, #C33764, #1d2671);
   background-position: center;
   text-align: center;
   color: whitesmoke;
-  height: 700px;
-  background: -webkit-gradient(linear, left top, right top, from(#4e54c8), to(#8f94fb));
-  background: linear-gradient(to right, #4e54c8, #8f94fb);
-  padding: 15px;
+  height: 3000px;
+  background-color: #e5e5f7;
+}
+
+#botonApi {
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
+  padding: 1.2rem 2.8rem;
+  font-weight: bold;
+  color: #fff;
+  border-color: grey;
+  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+}
+
+.fondoContacto {
+  background-image: url(../multimedia/fondoContactoDefinitivo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+}
+
+#form {
+  opacity: 0.8;
+  background-image: radial-gradient(#050505 0.5px, transparent 0.5px), radial-gradient(#050505 0.5px, #e5e5f7 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0,10px 10px;
+  margin: auto;
+  width: 90%;
+  max-width: 400px;
+  padding: 4.5em 3em;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 5px 10px -5px #4e54c8;
+          box-shadow: 0 5px 10px -5px #4e54c8;
+  text-align: center;
+  padding: 1px;
+}
+
+.formContainer {
+  margin-top: 3em;
+}
+
+#input-name {
+  width: 100%;
+  background: none;
+  color: #4e54c8;
+  font-size: 1rem;
+  padding: .6em .3em;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #4e54c8;
+}
+
+#input-email {
+  width: 100%;
+  background: none;
+  color: #4e54c8;
+  font-size: 1rem;
+  padding: .6em .3em;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #4e54c8;
+}
+
+#msg {
+  width: 100%;
+  background: none;
+  color: #4e54c8;
+  font-size: 1rem;
+  padding: .6em .3em;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #4e54c8;
+}
+
+#textoContacto {
+  color: #4e54c8;
+  font-family: 'Graduate', cursive;
+  font-size: 25px;
+}
+
+#botonCafeHot {
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
+  padding: 1.2rem 2.8rem;
+  font-weight: bold;
+  color: #fff;
+  border-color: grey;
+  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+}
+
+#botonCafeHot:hover {
+  -webkit-box-shadow: 0 0 40px  red;
+          box-shadow: 0 0 40px  red;
+  background-position: 0;
+}
+
+#botonCafeCold {
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
+  padding: 1.2rem 2.8rem;
+  font-weight: bold;
+  color: #fff;
+  border-color: grey;
+  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+}
+
+#botonCafeCold:hover {
+  -webkit-box-shadow: 0 0 40px  blue;
+          box-shadow: 0 0 40px  blue;
+  background-position: 0;
 }
 /*# sourceMappingURL=style.css.map */
