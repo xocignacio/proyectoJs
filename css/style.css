@@ -77,10 +77,30 @@ html {
           filter: none;
 }
 
+.footerForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  background-color: black;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: center;
+  color: grey;
+  padding: 10px;
+  height: 120px;
+  background: -webkit-gradient(linear, right top, left top, from(#000000), to(#434343));
+  background: linear-gradient(to left, #000000, #434343);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 2px solid grey;
+}
+
 h1 {
   font-size: 25px;
   color: grey;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Graduate', cursive;
 }
 
 h2 {
@@ -109,29 +129,6 @@ p {
   padding: 15px;
 }
 
-.animate__animated.animate__bounce {
-  --animate-duration: 5s;
-}
-
-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 18px;
-  background-color: black;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  text-align: center;
-  color: grey;
-  padding: 10px;
-  height: 120px;
-  background-image: url(../multimedia/header.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-top: 2px solid grey;
-}
-
 #bienvenida {
   font-size: 50px;
   background-size: cover;
@@ -140,10 +137,19 @@ footer {
   text-align: center;
   color: whitesmoke;
   height: 700px;
-  background-image: url(../multimedia/coffee1.jpg);
+  background-image: url(../multimedia/mainCafe4.jpg);
   padding: 15px;
   color: grey;
   font-family: 'Graduate', cursive;
+}
+
+.bienvenidos {
+  font-size: 50px;
+  color: white;
+}
+
+.welcome {
+  color: white;
 }
 
 .mainCafe {
@@ -168,6 +174,17 @@ footer {
   padding: 15px;
 }
 
+.mainCafe4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: whitesmoke;
+  height: 700px;
+  background-image: url(../multimedia/ultimoFondo.jpg);
+  padding: 15px;
+}
+
 .fondoHistoria {
   background-image: url(../multimedia/fondoHistoria.jpg);
   background-size: cover;
@@ -182,23 +199,6 @@ footer {
   height: auto;
 }
 
-/* .fondoContacto {
-    display: flex;
-     background-image: url(../multimedia/contacto5.png); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 50px;    
-    text-align: center;  
-    box-shadow: $borderBox;
-    width: auto;
-    height: auto;
-    align-items: center;
-    justify-items: center;
-    box-shadow: 0 5px 5px 0px #4e54c8;
-    background-color: white;
-}
-  */
 #btn1 {
   background-color: transparent;
   border: 2px solid;
@@ -208,7 +208,7 @@ footer {
   padding: 1.2rem 2.8rem;
   font-weight: bold;
   color: #fff;
-  border-color: grey;
+  border-color: white;
   -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out;
@@ -234,7 +234,7 @@ footer {
   padding: 1.2rem 2.8rem;
   font-weight: bold;
   color: #fff;
-  border-color: grey;
+  border-color: white;
   -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out;
@@ -260,7 +260,7 @@ footer {
   padding: 1.2rem 2.8rem;
   font-weight: bold;
   color: #fff;
-  border-color: grey;
+  border-color: white;
   -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out;
@@ -286,7 +286,7 @@ footer {
   padding: 1.2rem 2.8rem;
   font-weight: bold;
   color: #fff;
-  border-color: grey;
+  border-color: white;
   -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out;
@@ -312,7 +312,7 @@ footer {
   padding: 1.2rem 2.8rem;
   font-weight: bold;
   color: #fff;
-  border-color: grey;
+  border-color: white;
   -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out;
@@ -338,7 +338,7 @@ footer {
   padding: 1.2rem 2.8rem;
   font-weight: bold;
   color: #fff;
-  border-color: grey;
+  border-color: white;
   -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out;
@@ -422,73 +422,20 @@ footer {
   background-color: black;
 }
 
-/* #textoContacto {
-    color: #4e54c8;
-    font-size: 30px;
-    font-family: 'Graduate', cursive;
-} */
-/* 
-#form {
-    width: 100%;
-    height: 100%;
-}
-
-#msg {
-    width: 500px;
-     
-    padding: 15px;
-    outline: none;
-    resize: none;
-    font-size: 16px;
-    border: none;
-    background-color: white;
-    border-bottom: 1px solid grey;
-   border-radius: 15px; 
-    border-color: black;
-    color: #4e54c8;
-
-}
-
-#input-name{
-    
-    outline: none;
-    resize: none;
-    width: 320px;
-    margin-top: 20px;
-    border-radius: 15px;
-    border-color: grey; 
-    border: none;
-    background-color: white;
-    border-bottom: 1px solid grey;
-    color: #4e54c8;
-    
-}
-
-#input-email{
-    width: 320px;
-    border: none;
-    background-color: white;
-    border-bottom: 1px solid grey;
-     border-radius: 15px; 
-    border-color: grey;
-    color: #4e54c8;
-
-} */
 #input-submit {
   background-color: transparent;
   border: 2px solid;
   border-radius: 10px;
   cursor: pointer;
-  margin: 20px;
-  padding: 1.2rem 2.8rem;
+  margin: 10px;
+  padding: 1.0rem 2.0rem;
   font-weight: bold;
-  color: #fff;
-  border-color: grey;
+  color: #4e54c8;
+  border-color: white;
   -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
-  color: #4e54c8;
 }
 
 #input-submit:focus {
@@ -506,34 +453,14 @@ footer {
   background: linear-gradient(to left, #000000, #434343);
 }
 
-.footerForm {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 18px;
-  background-color: black;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  text-align: center;
-  color: grey;
-  padding: 10px;
-  height: 120px;
-  background: -webkit-gradient(linear, right top, left top, from(#000000), to(#434343));
-  background: linear-gradient(to left, #000000, #434343);
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-top: 2px solid grey;
-}
-
 .listaCafe {
   background-size: cover;
-  background: -webkit-gradient(linear, right top, left top, from(#C33764), to(#1d2671));
-  background: linear-gradient(to left, #C33764, #1d2671);
+  /*   background: linear-gradient(to left,#C33764, #1d2671) ; */
+  background-image: url(../multimedia/productos.png);
   background-position: center;
   text-align: center;
   color: whitesmoke;
-  height: 3000px;
+  height: 3400px;
   background-color: #e5e5f7;
 }
 
@@ -546,7 +473,7 @@ footer {
   padding: 1.2rem 2.8rem;
   font-weight: bold;
   color: #fff;
-  border-color: grey;
+  border-color: white;
   -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out;
@@ -554,7 +481,7 @@ footer {
 }
 
 .fondoContacto {
-  background-image: url(../multimedia/fondoContactoDefinitivo.jpg);
+  background-image: url(../multimedia/form.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -572,16 +499,24 @@ footer {
   margin: auto;
   width: 90%;
   max-width: 400px;
-  padding: 4.5em 3em;
-  border-radius: 10px;
+  padding: 10px;
+  border-radius: 20px;
   -webkit-box-shadow: 0 5px 10px -5px #4e54c8;
           box-shadow: 0 5px 10px -5px #4e54c8;
   text-align: center;
-  padding: 1px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .formContainer {
   margin-top: 3em;
+}
+
+.suscribite {
+  color: black;
+  font-size: 35px;
+  font-family: 'Graduate', cursive;
 }
 
 #input-name {
@@ -593,6 +528,11 @@ footer {
   border: none;
   outline: none;
   border-bottom: 1px solid #4e54c8;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px;
 }
 
 #input-email {
@@ -604,9 +544,14 @@ footer {
   border: none;
   outline: none;
   border-bottom: 1px solid #4e54c8;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px;
 }
 
-#msg {
+#password {
   width: 100%;
   background: none;
   color: #4e54c8;
@@ -615,12 +560,31 @@ footer {
   border: none;
   outline: none;
   border-bottom: 1px solid #4e54c8;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px;
+}
+
+.warnings {
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  color: tomato;
+  padding-top: 30px;
+  font-size: 15px;
 }
 
 #textoContacto {
   color: #4e54c8;
   font-family: 'Graduate', cursive;
   font-size: 25px;
+}
+
+.tituloProductos {
+  color: white;
+  margin-top: 25px;
 }
 
 #botonCafeHot {
@@ -632,7 +596,7 @@ footer {
   padding: 1.2rem 2.8rem;
   font-weight: bold;
   color: #fff;
-  border-color: grey;
+  border-color: white;
   -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out;
@@ -640,8 +604,8 @@ footer {
 }
 
 #botonCafeHot:hover {
-  -webkit-box-shadow: 0 0 40px  red;
-          box-shadow: 0 0 40px  red;
+  -webkit-box-shadow: 0 0 40px #be1c1c;
+          box-shadow: 0 0 40px #be1c1c;
   background-position: 0;
 }
 
@@ -654,7 +618,7 @@ footer {
   padding: 1.2rem 2.8rem;
   font-weight: bold;
   color: #fff;
-  border-color: grey;
+  border-color: white;
   -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out;
@@ -662,8 +626,8 @@ footer {
 }
 
 #botonCafeCold:hover {
-  -webkit-box-shadow: 0 0 40px  blue;
-          box-shadow: 0 0 40px  blue;
+  -webkit-box-shadow: 0 0 40px #1111ca;
+          box-shadow: 0 0 40px #1111ca;
   background-position: 0;
 }
 /*# sourceMappingURL=style.css.map */

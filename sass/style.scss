@@ -20,9 +20,7 @@ html {
     height: 80px;
     background-image: url(../multimedia/header.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-   
-    
+    background-repeat: no-repeat;     
 
      li a {
     border: 1px inset rgb(49, 43, 43);
@@ -68,10 +66,14 @@ html {
     }   
 }
 
+.footerForm {
+    @include footerForm;
+}
+
 h1 {
-        font-size: 25px;
-        color: grey;
-        font-family: 'Press Start 2P', cursive;       
+    font-size: 25px;
+    color: grey;
+    font-family: 'Graduate', cursive;   
 }
 h2 {
     font-size: 15px;
@@ -96,27 +98,7 @@ p {
     color: whitesmoke;
     height: 700px;                   
     background-image:url(../multimedia/background-g0003a7a51_1920.jpg);
-    padding: 15px;
-  
-}
-
-.animate__animated.animate__bounce  {
-  --animate-duration: 5s;
-}
-
-footer {
-display:flex;
-font-size: 18px;
-background-color: black;
-align-items: flex-end;
-text-align: center;
-color: grey;
-padding: 10px;
-height: 120px;
-background-image: url(../multimedia/header.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-border-top: 2px solid grey;
+    padding: 15px;  
 }
 
 #bienvenida {
@@ -127,11 +109,17 @@ border-top: 2px solid grey;
     text-align: center;  
     color: whitesmoke;
     height: 700px;                   
-    background-image:url(../multimedia/coffee1.jpg);
+    background-image:url(../multimedia/mainCafe4.jpg);
     padding: 15px;
     color: grey;
     font-family: 'Graduate', cursive;
-   
+}
+.bienvenidos {
+    font-size: 50px;
+    color: white;
+}
+.welcome {
+    color: white;
 }
 
 .mainCafe {
@@ -154,9 +142,19 @@ border-top: 2px solid grey;
     color: whitesmoke;
     height: 700px;                   
     background-image:url(../multimedia/coffee3.jpg);
-    padding: 15px;
-  
+    padding: 15px;  
 }
+
+.mainCafe4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;  
+    color: whitesmoke;
+    height: 700px;                   
+    background-image:url(../multimedia/ultimoFondo.jpg);
+    padding: 15px;  
+} 
 
 .fondoHistoria  {
     background-image: url(../multimedia/fondoHistoria.jpg);
@@ -171,27 +169,8 @@ border-top: 2px solid grey;
     height: auto;
 }
 
-/* .fondoContacto {
-    display: flex;
-     background-image: url(../multimedia/contacto5.png); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 50px;    
-    text-align: center;  
-    box-shadow: $borderBox;
-    width: auto;
-    height: auto;
-    align-items: center;
-    justify-items: center;
-    box-shadow: 0 5px 5px 0px #4e54c8;
-    background-color: white;
-}
-  */
-
 #btn1 {
-   @include boton;
-    
+   @include boton;    
 }
 
 #btn1:focus {
@@ -293,61 +272,17 @@ border-top: 2px solid grey;
    background-color: black;
 }
 
-/* #textoContacto {
-    color: #4e54c8;
-    font-size: 30px;
-    font-family: 'Graduate', cursive;
-} */
-/* 
-#form {
-    width: 100%;
-    height: 100%;
-}
-
-#msg {
-    width: 500px;
-     
-    padding: 15px;
-    outline: none;
-    resize: none;
-    font-size: 16px;
-    border: none;
-    background-color: white;
-    border-bottom: 1px solid grey;
-   border-radius: 15px; 
-    border-color: black;
-    color: #4e54c8;
-
-}
-
-#input-name{
-    
-    outline: none;
-    resize: none;
-    width: 320px;
-    margin-top: 20px;
-    border-radius: 15px;
-    border-color: grey; 
-    border: none;
-    background-color: white;
-    border-bottom: 1px solid grey;
-    color: #4e54c8;
-    
-}
-
-#input-email{
-    width: 320px;
-    border: none;
-    background-color: white;
-    border-bottom: 1px solid grey;
-     border-radius: 15px; 
-    border-color: grey;
-    color: #4e54c8;
-
-} */
 #input-submit {
-    @include boton;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 1.0rem 2.0rem;
+    font-weight: bold;
     color: #4e54c8;
+    border-color: white;
+    transition: box-shadow 0.2s ease-in-out;
 }
 
 #input-submit:focus {
@@ -363,30 +298,15 @@ border-top: 2px solid grey;
     background: linear-gradient(to left, #000000, #434343);
 }
 
-.footerForm {
-    display:flex;
-    font-size: 18px;
-    background-color: black;
-    align-items: flex-end;
-    text-align: center;
-    color: grey;
-    padding: 10px;
-    height: 120px;
-    background: linear-gradient(to left, #000000, #434343);
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-top: 2px solid grey;
-}
-
 .listaCafe {
     background-size: cover;
-    background: linear-gradient(to left,#C33764, #1d2671) ;
+  /*   background: linear-gradient(to left,#C33764, #1d2671) ; */
+    background-image:url(../multimedia/productos.png);
     background-position: center;
     text-align: center;  
     color: whitesmoke;
-    height: 3000px;                  
-    background-color: #e5e5f7;
-            
+    height: 3400px;                  
+    background-color: #e5e5f7;            
 }
    
 #botonApi {
@@ -394,7 +314,7 @@ border-top: 2px solid grey;
 }
 
 .fondoContacto {
-    background-image: url(../multimedia/fondoContactoDefinitivo.jpg); 
+    background-image: url(../multimedia/form.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -403,57 +323,39 @@ border-top: 2px solid grey;
 }
 
 #form {
-    opacity: 0.8;
-    background-image:  radial-gradient(#050505 0.5px, transparent 0.5px), radial-gradient(#050505 0.5px, #e5e5f7 0.5px);
-    background-size: 20px 20px;
-    background-position: 0 0,10px 10px;
-    margin: auto;
-    width: 90%;
-    max-width: 400px;
-    padding: 4.5em 3em;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px -5px #4e54c8 ;
-    text-align: center;
-    padding: 1px;
-
+    @include form;
 }
 
 .formContainer {
     margin-top: 3em;
 }
 
+.suscribite {
+    color: black;
+    font-size: 35px;
+    font-family: 'Graduate', cursive;
+}
+
 #input-name {
-    width: 100%;
-    background: none;
-    color: #4e54c8;
-    font-size: 1rem;
-    padding: .6em .3em;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid #4e54c8;
+    @include input-name;
 }
 
 
 #input-email {
-    width: 100%;
-    background: none;
-    color: #4e54c8;
-    font-size: 1rem;
-    padding: .6em .3em;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid #4e54c8;
+   @include input-email;
 }
 
-#msg {
-    width: 100%;
-    background: none;
-    color: #4e54c8;
-    font-size: 1rem;
-    padding: .6em .3em;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid #4e54c8;
+#password {
+    @include password;
+}
+
+.warnings {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: tomato;
+    padding-top: 30px;
+    font-size: 15px;
 }
 
 #textoContacto {
@@ -463,24 +365,25 @@ border-top: 2px solid grey;
    
 }
 
+.tituloProductos {
+    color: white;
+    margin-top: 25px;
+}
 #botonCafeHot {
     @include boton;
+   
 }
 
 #botonCafeHot:hover {
-    box-shadow: 0 0 40px  red;
+    box-shadow: 0 0 40px  rgb(190, 28, 28);
     background-position: 0;
 }
-
-
 #botonCafeCold {
-    @include boton;
-    
+    @include boton;    
     
 }
-
 #botonCafeCold:hover {
-    box-shadow: 0 0 40px  blue;
+    box-shadow: 0 0 40px  rgb(17, 17, 202);
     background-position: 0;
 }
 

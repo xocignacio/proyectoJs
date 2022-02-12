@@ -1,3 +1,7 @@
+$('main').append(`                                    
+  <h1 class="tituloProductos">Conoce nuestra amplia variedad de cafes</h1>
+`)
+
 const URL_JSON = '../db/data.json'
 
 $('main').prepend(`<button id="botonCafeHot"> Cafes calientes </button>`)
