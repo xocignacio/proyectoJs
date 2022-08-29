@@ -1,1 +1,7 @@
-# ProyectoJS es una pag web para CoffeeCLUB, una pequeña cafeteria en San Isidro, en la cual practico y aplico diferentes conocimiendos de javaScript 
+#  CoffeeCLUB
+##  una pequeña cafeteria en San Isidro
+
+✨ ProyectoJS ✨
+
+-  [Netlify]( https://www.netlify.com/  )  | Me brinda la posibilidad de observar la SPA en funcionamiento
+## Conceptos
