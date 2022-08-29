@@ -3,5 +3,4 @@
 
 ✨ ProyectoJS ✨
 
--  [Netlify]( https://www.netlify.com/  )  | Me brinda la posibilidad de observar la SPA en funcionamiento
-## Conceptos
+-  [Page]( https://xocignacio.github.io/proyectoJs/  )  | 
